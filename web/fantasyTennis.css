@@ -1,0 +1,278 @@
+
+
+
+
+body {
+    background: url('tennis_stadium.png') no-repeat 50% 50% fixed; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 100%;
+    width:100%;
+}
+
+
+
+#title {
+    color: #E0FFFF;
+    position: fixed;
+    top:10px;
+    text-align: center;
+    right: 0;
+    height: 0;
+    left: 0px;
+    font-size: 20pt;
+    width: auto;
+    display: inline-block;
+    z-index: 5;
+    min-width: 400px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#nav{
+    
+    z-index: 3;
+    color:white;
+    text-align:center;
+    /*border:1px solid #222930;*/
+    font:sans-serif;
+    width: 100%;
+    
+    min-width: 742px;
+    position: fixed;
+    margin-bottom:100px;
+    right: 0.25px;
+    background-color: rgba(51, 51, 51, 0);
+   
+
+}
+
+.right{
+    float: right;
+    /*border:1px solid #222930;*/
+    width:80px;
+}
+
+.left{
+    float: left;
+    /*border:1px solid #222930;*/
+    width:80px;
+}
+
+#nav li{
+    display:inline-block;
+    list-style:none;
+    
+    /*border:1px solid #222930;*/
+}
+
+
+ul{
+    /*background-color: blue;*/
+    background-color: rgba(51, 51, 51, 0.8);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 43px;
+    
+}
+
+
+p {
+    text-shadow: 1px 1px black;
+}
+
+li {
+    float: right;
+    /*border:1px solid #222930;*/
+    width:80px;
+}
+
+li a {
+    display: inline-block;
+    color: #E0FFFF;
+    text-align: center;
+    padding: 14px 1px;
+    text-decoration: none;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
+
+}
+
+#nav ul > li:hover{ 
+    background-color: black;
+}
+
+#nav ul > li > a:link{
+    color: white;
+}
+
+.container{
+    min-height: 100%;
+    overflow-y: auto;
+    text-align: center;
+    position: relative;
+}
+
+.message{
+    margin: 25px auto 25px;
+    width: 70%;
+    max-width: 1200px;
+    background-color: rgba(51, 51, 51, 0);
+    opacity: 0.9;
+    display: block;
+    padding: 5px 30px;
+    color: rgb(40, 40, 40);
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    z-index: 8;
+}
+
+#content{
+
+    color: white;
+    clear: both;
+    padding-bottom: 400px;
+
+}
+
+.content{
+    margin: 100px auto 100px;
+    width: 70%;
+    max-width: 1200px;
+    background-color:rgb(188,214,214);
+    opacity: 0.9;
+    display: block;
+    padding: 5px 30px;
+    color: rgb(40, 40, 40);
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#content p{
+
+    position:relative;
+    padding-top:0px;
+    padding-bottom:0px;
+    float:left;
+    font:sans-serif;
+}
+#content div{
+    width:600px;
+    text-align:center;
+    padding-left:350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#content div > img{
+    position:relative;
+    clear:both;
+    width:400px;
+    height:200px;
+
+}
+
+#logon{
+    background-color: white;
+    opacity: 0.75;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#labs {
+    background-color: white;
+    opacity: 0.75;
+    color:black;
+}
+
+.insert{
+    margin: 0 auto;
+}
+
+#footer {
+    position: fixed;
+    /*margin-top: 15px;*/
+    right: 1px;
+    bottom: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+#footerText {
+    color: #E0FFFF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dpdwn ul{
+    display: none;
+    
+    /*border:1px solid #222930;*/
+    width:80px;
+}
+.dpdwn:hover ul {
+    display: block;
+}
+
+.noChange{
+    
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.8);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
